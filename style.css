@@ -1,0 +1,110 @@
+/* styles.css */
+body {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* Text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333333; /* Dark header background color */
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content {
+    background-color: #222222; /* Dark content background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.content {
+    background-color: #222222; /* Dark content background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    p {
+        font-size: 12px; /* Reduce the font size */
+        line-height: 1.0;
+        text-align: center; /* Center-align the text */
+        color: #dddddd; /* Lighter text color for better readability */
+        max-width: 80%; /* Limit text width for readability */
+    }
+    
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 0 auto; /* Center the image horizontally within the flex container */
+}
+
+
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #333333; /* Dark footer background color */
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 14px;
+    color: #999999;
+}
+
+/* Add this to your styles.css file */
+/* ... (previous styles) */
+
+.social-icons {
+    text-align: center;
+    margin-top: 20px; /* Add some spacing between content and the Instagram button */
+}
+
+.instagram-icon img {
+    width: 50px; /* Adjust the size of the Instagram icon as needed */
+    height: auto;
+    transition: transform 0.3s ease; /* Add a smooth transition on hover */
+}
+
+.instagram-icon:hover img {
+    transform: scale(1.2); /* Enlarge the icon on hover */
+}
+
+footer {
+    background-color: #333333; /* Dark footer background color */
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 14px;
+    color: #999999;
+}
